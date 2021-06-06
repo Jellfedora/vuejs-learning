@@ -44,7 +44,7 @@
         </transition>
       </div>
     </form>
-    <router-link to="/home">Allez à l'accueil</router-link>
+    <!-- <router-link class="link-to-home" to="/home">Allez à l'accueil</router-link> -->
 
     <!-- <div ref="elRef">Salut toi</div> -->
   </div>
@@ -149,6 +149,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 h2 {
   width: 100%;
@@ -222,6 +223,10 @@ button:hover {
 }
 .empty_input {
   border: 1px solid black;
+}
+.link-to-home {
+  width: 100%;
+  color: #41b882;
 }
 /* Submit transition */
 .slide-fade-enter-active {
